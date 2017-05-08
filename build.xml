@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<project name="Hello World Project" default="clean">
+<target name="clean" depends="info">
+   <delete dir="build"/>
+</target>
+   
+<target name="info">
+<echo>Hello World - Welcome !</echo>
+</target>
+
+</project>
