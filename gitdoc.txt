@@ -1,0 +1,18 @@
+for configuring:
+-----------------
+git config --global user.name "uday1012"
+git config --global user.email "sahil.uday@gmail.com"
+
+For checkout:
+-------------
+git clone "link"
+
+For adding files:
+-----------------
+git add * or git add filename
+git commit -m "files added"
+git push (provide username and password)
+
+git pull(to sync files between repo and checkout folder)
+
+git status(for checking status)
